@@ -1,4 +1,4 @@
-def mirror(n): 
+def right(n): 
       
     # total number of spaces(in 5=4+3+2+1=10=2n) 
     k = 2*n-2
@@ -24,4 +24,4 @@ def mirror(n):
   
 # Driver Code 
 n = 5
-mirror(n)
+right(n)
