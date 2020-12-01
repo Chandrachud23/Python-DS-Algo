@@ -1,4 +1,5 @@
-def contnum(n): 
+##Simple Method
+def pattern(n): 
       
     # outer loop to handle number of rows 
     for i in range(0, n):  
@@ -14,4 +15,15 @@ def contnum(n):
         print("\r")
         
 n=5
-contnum(n)
+pattern(n)
+
+##Using higher list functions
+def pattern(n): 
+    myList = [] 
+    for i in range(1,n+1): 
+        myList.append("* "*i) 
+    print("\n".join(myList)) 
+  
+# Driver Code 
+n = 5
+pattern(n)
