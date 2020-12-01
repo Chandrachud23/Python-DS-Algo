@@ -1,7 +1,7 @@
 def mirror(n): 
       
     # total number of spaces(in 5=4+3+2+1=10=2n) 
-    k = 2*n
+    k = 2*n-2
   
     # outer loop to handle number of rows from 1 to n 
     for i in range(0, n): 
