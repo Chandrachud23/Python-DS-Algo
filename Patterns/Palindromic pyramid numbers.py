@@ -24,3 +24,19 @@ def pallin(n):
 # Driver Code 
 n = 5
 pallin(n)
+
+
+#if we want an left aligned sequence(without a equilateral triangle
+
+#we will use the mathematical trick
+#11*11=121
+#111*111=12321 ans so on
+def series(n):
+   
+    for i in range(1, n+1):
+        print((111111111//(10**(9-i)))**2, end=" ") #the floor division // rounds the result down to the nearest whole number
+
+        print("\r")
+        
+n=5
+series(n)
