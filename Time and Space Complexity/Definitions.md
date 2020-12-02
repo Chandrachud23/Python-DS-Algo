@@ -1,5 +1,4 @@
-#Time Complexity:
-
+# Time Complexity:
 Time complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of the input.
 Types of notations
 1. O-notation: It is used to denote asymptotic upper bound. For a given function g(n), we denote it by O(g(n)). Pronounced as “big-oh of g of
@@ -14,8 +13,7 @@ O(n^n) > O(n!) > O(n3) > O(n2) > O(n.log(n)) > O(n.log(log(n))) > O(n) > O(sqrt(
 Note: Reverse is the order for better performance of a code with corresponding time complexity, i.e. a program with less time complexity is more
 efficient.
 
-#Space Complexity:
-
+# Space Complexity:
 Space complexity of an algorithm quantifies the amount of time taken by a program to run as a function of length of the input. It is directly
 proportional to the largest memory your program acquires at any instance during run time.
 For example: int consumes 4 bytes of memory.
