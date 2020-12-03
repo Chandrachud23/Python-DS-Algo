@@ -9,6 +9,7 @@ Note that the very first day could be a record breaking day!
 
 
 Solution:
+
 def record_breaker(a):
     
     count = 0
