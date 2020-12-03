@@ -13,7 +13,8 @@ def InsertionSort(arr):
                 arr[j+1] = arr[j] 
                 j -= 1
         arr[j+1] = key 
-  
+     
+    return arr
   
 # Driver code to test above 
 arr = [23,45,53,12,34,9,84] 
