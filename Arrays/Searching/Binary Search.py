@@ -1,5 +1,5 @@
 def binary_search(arr, n, key):
-    
+    arr.sort() #buit-in func
     if key==arr[n//2]: #// is a flooring operation, rounds up value to a whole num, instead can declare it as int and continue with normal division operator
         return n//2
     elif key<n//2:
