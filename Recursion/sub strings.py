@@ -12,4 +12,4 @@ s="ABC"
 ans=""
 lst_substrings(s,ans)
 
-Watch this for better explanation: https://www.youtube.com/embed/j9RG18jfnRY?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ
+#Watch this for better explanation: https://www.youtube.com/embed/j9RG18jfnRY?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ
